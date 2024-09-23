@@ -10,13 +10,13 @@ class BmiResultScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF1d1e33),
+      backgroundColor: Color(0xFF0a0e21),
       appBar: AppBar(
           leading: IconButton(
     icon: Icon(Icons.arrow_back, color: Colors.white),
     onPressed: () => Navigator.of(context).pop(),
   ), 
-        backgroundColor: Color(0xFF1d1e33),
+        backgroundColor: Color(0xFF0a0e21),
         title: Padding(
           padding: const EdgeInsets.only(left: 70),
           child: Text('RESULT',
